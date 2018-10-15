@@ -36,22 +36,22 @@ Your bot is a web service that implements a conversational interface and communi
 
 As part of the Azure Bot Service, we offer additional components you can use to extend your bot's functionality
 
-###Add natural language processing
+### Add natural language processing
 Enable your bot to understand natural language, understand spelling errors, use speech, and recognize the user's intent
 
-###How to use LUIS
+### How to use LUIS
 Add a knowledge base to answer questions users ask in a more natural, conversational way
 How to use QnA Maker
 
-###Manage multiple models
+### Manage multiple models
 If using more than one model, such as for LUIS and QnA Maker, intelligently determine when to use which one during your bot's conversation
 Dispatch tool
 
-###Add cards and buttons
+### Add cards and buttons
 Enhance the user experience with media other than text, such as graphics, menus, and cards
 How to add cards
 
-###Testing
+### Testing
 Test your bot locally with the emulator. The Bot Framework Emulator is a stand-alone app that not only provides a chat interface, but also debugging and interrogation tools to help understand how and why your bot does what it does. The emulator can be run on a locally alongside your in-development bot application.
 
 Test your bot on the web. Once configured through the Azure portal your bot can also be reached through a web chat interface. The web chat interface is a great way to grant access to your bot to testers and other people who do not have direct access to the bot's running code.
