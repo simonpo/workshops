@@ -26,7 +26,7 @@ placeholder
 * How to read/write data
 * Intro to Jupyter, using Python or R
 
-## Modeling lifecycle using ML Studio and Workbench
+## Modeling lifecycle using ML Studio and SDK
 
 placeholder
 
