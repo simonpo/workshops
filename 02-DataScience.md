@@ -23,8 +23,7 @@ placeholder
 
 ## Set up & use Ubuntu DSVM
 
-* How to read/write data
-* Intro to Jupyter, using Python or R
+[Section 2.2](02.2-DSVM.md) explains how to set up an Ubuntu Data Science Virtual Machine in Azure, provides an introduction to Jupyterhub, and details the steps you need to take to read and write data from Azure Blob Storage.
 
 ## Modeling lifecycle using ML Studio and SDK
 
