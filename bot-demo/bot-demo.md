@@ -13,8 +13,8 @@ Confirm  npm is up to date
 ```
 npm i npm
 ```
-Install Yeoman and BotBuilder
-Use botbuilder to generate the bot framework and code base
+Install Yeoman and BotBuilder using npm.
+yo botbuilder will generate the bot framework and code base.
 Make sure to choose 'javascript' and 'basic' (not echo) when prompted!
 
 ```
@@ -22,7 +22,7 @@ npm install -g yo
 npm install -g generator-botbuilder
 yo botbuilder
 ```
-The framework and code for the bot should not be created in the luisGreeter folder. 
+The framework and code for the bot should now be created in the luisGreeter folder. 
 
 ## Deploying LUIS models
 (See more details in the DEPLOYMENT.md file in luisGreeter/deploymentScripts. Walkthrough below fixes some errors that are found in DEPLOYMENT.md)
