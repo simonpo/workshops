@@ -14,6 +14,9 @@ Confirm  npm is up to date
 npm i npm
 ```
 Install Yeoman and BotBuilder
+Use botbuilder to generate the bot framework and code base
+Make sure to choose 'javascript' and 'basic' (not echo) when prompted!
+
 ```
 npm install -g yo 
 npm install -g generator-botbuilder
