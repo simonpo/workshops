@@ -4,7 +4,8 @@
 
 In a command prompt, create a folder for the bot
 
-``` md luisGreeter
+``` 
+md luisGreeter
 cd luisGreeter
 ```
 
@@ -37,8 +38,9 @@ Parse the lu files to your LUIS model
 ludown parse toluis --in dialogs/greeting/resources/main.lu -o cognitiveModels/ --out basicBot.luis -n luisGreeter-LUIS -d 'Bot Builder V4 Basic Bot.' --verbose
 ```
 Create a new LUIS application using the generate LUIS model and update the .bot file with the LUIS service configuration:
-
+```
 luis import application --in cognitiveModels/basicBot.luis --authoringKey <LUIS-KEY>  --msbot --endpointRegion --region westus | msbot connect luis --stdin
+```
 
 Train the LUIS model
 ```
