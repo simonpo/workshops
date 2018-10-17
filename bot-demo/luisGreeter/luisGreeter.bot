@@ -1,0 +1,28 @@
+{
+    "name": "luisGreeter",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "http://localhost:3978/api/messages",
+            "name": "development"
+        },
+        {
+            "type": "luis",
+            "appId": "6e7e145e-b4dc-4c90-b60b-88b10e66c573",
+            "authoringKey": "81pkmpooiYvQbVUrWzyZmQ==!CPn42Vf1QMtYE/usxYslOpcplEtWo7kFT5uEAs6hojDkZT/PzDkiFyIu0TDBTd/o",
+            "id": "195",
+            "name": "luisGreeter-LUIS",
+            "region": "westus",
+            "subscriptionKey": "YKEk+2ybYb1tJD5QvcbO9g==!jjEQI0UZ4FPotzp+T0GLI1AyLTT31pc4OrVqc1eZL0afsJmKHP6yhXKTemhFZ9Mo",
+            "version": "0.1"
+        }
+    ],
+    "padlock": "EjJAr11dG+x8+Es+cAPoVA==!1bYBzPmsCb2V2dEWIK9+XsUyNfHhWbLeeY0vSiIk4dMKmd+1H9dAQPpA65dRXvRh",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Git\\CognitiveServices\\workshops\\bot-demo\\luisGreeter\\luisGreeter.bot"
+}
