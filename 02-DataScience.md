@@ -25,9 +25,9 @@ placeholder
 
 [Section 2.2](02.2-DSVM.md) explains how to set up an Ubuntu Data Science Virtual Machine in Azure, provides an introduction to Jupyterhub, and details the steps you need to take to read and write data from Azure Blob Storage.
 
-## Modeling lifecycle using ML Studio and SDK
+## Modeling lifecycle using Azure ML Python SDK and Azure Databricks
 
-placeholder
+[Section 2.3](02.3-AMLwithDatabricks.md) explains how to set up Azure ML Python SDK in Azure Databricks, prepare data, build model, train and deploy.
 
 ## Model deployment
 
