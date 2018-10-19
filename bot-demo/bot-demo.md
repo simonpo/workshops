@@ -1,4 +1,4 @@
-# How to create a basic bot using LUIS through CLI commands
+# How to create a basic bot with LUIS using CLI
 
 ## Use the BotBuilder Generator
 
