@@ -56,7 +56,7 @@ msbot get luisGreeter-LUIS | luis publish version --stdin
 Go to your luis.ai account and you will see the new LUIS model and the trained intents/entities list.
 
 ## Updating the .bot file
-After deploying LUIS your .bot file may be missing key components for running the bot locally using nodejs. Copy and paste this into the services just before the luis config.
+After deploying LUIS your .bot file may now have two.bot files. Delete the original file with the nodejs endpoints. Copy and paste this into the services just before the luis config in the new .bot file that contains LUIS information.
 ```
 	  {
 	      "type": "endpoint",
