@@ -33,9 +33,12 @@ placeholder
 
 placeholder
 
-## Using Databricks cluster as a compute target
+## Using Ubuntu DSVM as a compute target
 
-placeholder
+A compute target is the resource that runs your training script or hosts your model when it's deployed as a web service. Azure ML Python SDk can create and manage a new compute target, or attach the existing one to the ML workspace. Data Science Virtual Machine (DSVM) running Ubuntu can be compute target, and that supports GPU acceleration, Automated hyperparameter tuning, Automated model selection, and can be used in pipelines.  
+
+Review [DSVM as Computer Target Steps by Step instruction](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-set-up-training-targets#dsvm). This is [Jupyter Notebook](https://github.com/Azure/MachineLearningNotebooks/blob/master/01.getting-started/04.train-on-remote-vm/04.train-on-remote-vm.ipynb) that demonstrates training on a Data Science Virtual Machine.
+
 
 ## Using PowerBI to visualize results
 
