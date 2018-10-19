@@ -6,7 +6,7 @@ Before the team can begin working on Data Science topics, everyone needs to have
 
 * Signing in to Azure
 * Set up & use Ubuntu DSVM
-* Modeling lifecycle using ML Studio and Workbench
+* Modeling lifecycle using ML Studio and SDK
 * Model deployment
 * Using Databricks cluster as a compute target
 * Using PowerBI to visualize results
