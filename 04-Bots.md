@@ -4,12 +4,12 @@
 
 Before the team can begin working on Cognitive Services and Bot Framework tasks, everyone needs to have a development environment set up with approriate tools. This workshop will get you ready to begin developing Bots, and includes hands-on experience with the following elements:
 
-*Bot Framework
-*QnAMaker
-*LUIS
-*Speech & Text analytics, translation
-*Deployment
-*Using PowerBI to visualize results
+* Bot Framework
+* QnAMaker
+* LUIS
+* Speech & Text analytics, translation
+* Deployment
+* Using PowerBI to visualize results
 
 ## Required Software
 
@@ -17,8 +17,8 @@ Before the team can begin working on Cognitive Services and Bot Framework tasks,
 *[Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator)
 
 ## Account Setup
-*[QnA Maker Account](https://www.qnamaker.ai/)
-*[Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-signup)
+* [QnA Maker Account](https://www.qnamaker.ai/)
+* [Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-signup)
 
 ## VS Code
 
