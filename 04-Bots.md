@@ -13,8 +13,8 @@ Before the team can begin working on Cognitive Services and Bot Framework tasks,
 
 ## Required Software
 
-*[VS Code](https://code.visualstudio.com/Download)
-*[Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator)
+* [VS Code](https://code.visualstudio.com/Download)
+* [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator)
 
 ## Account Setup
 * [QnA Maker Account](https://www.qnamaker.ai/)
