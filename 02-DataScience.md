@@ -17,13 +17,15 @@ Take a look at these repos for additional content ideas:
 * [Jupyter notebooks](https://github.com/Azure/MachineLearningNotebooks)
 * [Samples for AI](https://github.com/Microsoft/samples-for-ai)
 
-## Signing in to Azure
+## Signing into Azure
 
-placeholder
+To get started you'll have to sign into Azure through the Azure portal at [portal.azure.com](https://portal.azure.com). From here you can manage all of your resources and subscriptions.
+
+![02-portal-login.png](images/02-portal-login.PNG)
 
 ## Set up & use Ubuntu DSVM
 
-[Section 2.2](02.2-DSVM.md) explains how to set up an Ubuntu Data Science Virtual Machine in Azure, provides an introduction to Jupyterhub, and details the steps you need to take to read and write data from Azure Blob Storage.
+[Section 2.2](02.2-DSVM.md) explains how to set up a Ubuntu Data Science Virtual Machine in Azure, provides an introduction to Jupyterhub, and details the steps you need to take to read and write data from Azure Blob Storage.
 
 ## Modeling lifecycle using Azure ML Python SDK and Azure Databricks
 
@@ -31,15 +33,14 @@ placeholder
 
 ## Model deployment
 
-placeholder
+[Section 2.4](02.4-ModelDeployment.md) goes over the various ways you can deploy your ML model to Azure. This includes using our Machine Learning Python SDK, or open-source alternatives like [Flask](http://flask.pocoo.org/) and [Django](https://www.djangoproject.com/).
 
 ## Using Ubuntu DSVM as a compute target
 
-A compute target is the resource that runs your training script or hosts your model when it's deployed as a web service. Azure ML Python SDk can create and manage a new compute target, or attach the existing one to the ML workspace. Data Science Virtual Machine (DSVM) running Ubuntu can be compute target, and that supports GPU acceleration, Automated hyperparameter tuning, Automated model selection, and can be used in pipelines.  
+A compute target is the resource that runs your training script or hosts your model when it's deployed as a web service. Azure ML Python SDk can create and manage a new compute target, or attach the existing one to the ML workspace. Data Science Virtual Machine (DSVM) running Ubuntu can be compute target, and that supports GPU acceleration, automated hyperparameter tuning, automated model selection, and can be used in pipelines.
 
 Review [DSVM as Computer Target Steps by Step instruction](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-set-up-training-targets#dsvm). This is [Jupyter Notebook](https://github.com/Azure/MachineLearningNotebooks/blob/master/01.getting-started/04.train-on-remote-vm/04.train-on-remote-vm.ipynb) that demonstrates training on a Data Science Virtual Machine.
 
-
 ## Using PowerBI to visualize results
 
-placeholder
+[Section 2.5](02.5-PowerBI.md) highlights how to use Power BI to gain insight into your data and visualize your results.
