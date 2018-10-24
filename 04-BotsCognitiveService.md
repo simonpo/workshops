@@ -50,15 +50,12 @@ Enable your bot to understand natural language, understand spelling errors, use 
 
 ### How to use LUIS
 Add a knowledge base to answer questions users ask in a more natural, conversational way
-How to use QnA Maker
 
 ### Manage multiple models
-If using more than one model, such as for LUIS and QnA Maker, intelligently determine when to use which one during your bot's conversation
-Dispatch tool
+If using more than one model, such as for LUIS and QnA Maker, intelligently determine when to use which one during your bot's conversation using the Dispatch tool.
 
 ### Add cards and buttons
-Enhance the user experience with media other than text, such as graphics, menus, and cards
-How to add cards
+Enhance the user experience with media other than text, such as graphics, menus, and cards.
 
 ### Testing
 Test your bot locally with the emulator. The Bot Framework Emulator is a stand-alone app that not only provides a chat interface, but also debugging and interrogation tools to help understand how and why your bot does what it does. The emulator can be run on a locally alongside your in-development bot application.
