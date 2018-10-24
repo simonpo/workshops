@@ -2,23 +2,30 @@
 
 ## Introduction
 
-Before the team can begin working on Cognitive Services and Bot Framework tasks, everyone needs to have a development environment set up with approriate tools. This workshop will get you ready to begin developing Bots, and includes hands-on experience with the following elements:
+This workshop will begin with creating a Node.js bot in the Azure portal. We will discuss the basics of a bot and how to use Azure Bot Service with LUIS (Language Understanding Intelligent System). For the first part of the workshop you only need to be logged into your Azure portal and luis.ai. 
+
+The second part of this workshop will show you how to deploy a java bot into the Azure portal. 
+
+The last part of the workshop will demo Cognitive Services APIs and walk through how to create a FAQ bot using QnA Maker. 
+
+This workshop will get you ready to begin developing Bots, and includes hands-on experience with the following elements:
 
 * Bot Framework
 * QnAMaker
 * LUIS
-* Speech & Text analytics, translation
+* Cognitive Services
 * Deployment
-* Using PowerBI to visualize results
-
-## Required Software
-
-* [VS Code](https://code.visualstudio.com/Download)
-* [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator)
 
 ## Account Setup
 * [QnA Maker Account](https://www.qnamaker.ai/)
-* [Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-signup)
+* [LUIS](https://www.luis.ai/)
+
+## Optional Software
+
+If you want to test the bot, continue developing the bot locally after the workshop or create a new bot locally, you need the below installed. See the bot-demo folder README for the full walkthrough of a node.js bot. For workshop purposes we will be using the Azure portal to create the bot.
+
+* [VS Code](https://code.visualstudio.com/Download)
+* [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator)
 
 ## VS Code
 
@@ -30,11 +37,13 @@ The [Bot Framework Emulator](https://docs.microsoft.com/en-us/azure/bot-service/
 
 ## Azure Bot Service
 
+Please go to the [walkthrough here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0) for the workshop demo on building a Node.js and LUIS bot in Azure Bot Services.
+
 Azure Bot Service provides an integrated environment that is purpose-built for bot development, enabling you to build, connect, test, deploy, and manage intelligent bots, all from one place. Azure Bot Service leverages the Bot Builder SDK with support for C# and JavaScript.
 
 Your bot is a web service that implements a conversational interface and communicates with the Bot Framework Service to send and receive messages and events. You can create bots in any number of environments and languages. You can start your bot development in the Azure portal, or use [C# | JavaScript] templates for local development.
 
-As part of the Azure Bot Service, we offer additional components you can use to extend your bot's functionality
+As part of the Azure Bot Service, we offer additional components you can use to extend your bot's functionality:
 
 ### Add natural language processing
 Enable your bot to understand natural language, understand spelling errors, use speech, and recognize the user's intent
@@ -64,26 +73,26 @@ You can use [QnA Maker service](https://docs.microsoft.com/en-us/azure/bot-servi
 
 The ability to understand what your user means conversationally and contextually can be a difficult task, but can provide your bot a more natural conversation feel. Language Understanding, called [LUIS](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=cs), enables you to do just that so that your bot can recognize the intent of user messages, allow for more natural language from your user, and better direct the conversation flow.
 
-## Speech & Text Analytics 
+## Cognitive Services
+
+Azure Cognitive Services are APIs, SDKs, and services available to help developers build intelligent applications without having direct AI or data science skills or knowledge. Azure Cognitive Services expand on Microsoft’s evolving portfolio of machine learning APIs and enable developers to easily add cognitive features – such as emotion and video detection; facial, speech, and vision recognition; and speech and language understanding – into their applications. The goal of Azure Cognitive Services is to help developers create applications that can see, hear, speak, understand, and even begin to reason. The catalog of services within Azure Cognitive Services can be categorized into five main pillars - Vision, Speech, Language, Search, and Knowledge.
+
+Check out the [Cognitive Services documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/) for a full list of 5-minute quickstarts and tutorials!
+
 The [Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview) is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, language detection, and entity linking.
 
-*[Sentiment Analysis](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
-Analyze raw text for clues about positive or negative sentiment. This API returns a sentiment score between 0 and 1 for each document, where 1 is the most positive.
+*[Face API](https://docs.microsoft.com/en-us/azure/cognitive-services/face/overview)
+The Face API service is a cloud-based service that provides algorithms for analyzing human faces in images and video. The Face API has two main functions: face detection with attributes and face recognition.
 
-The analysis models are pretrained using an extensive body of text and natural language technologies from Microsoft. For selected languages, the API can analyze and score any raw text that you provide, directly returning results to the calling application.
+*[Computer Vision API](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home)
+The cloud-based Computer Vision service provides developers with access to advanced algorithms for processing images and returning information. Computer Vision works with popular image formats, such as JPEG and PNG. To analyze an image, you can either upload an image or specify an image URL. Computer Vision algorithms can analyze the content of an image in different ways, depending on the visual features you're interested in. For example, Computer Vision can determine if an image contains adult or racy content, or find all the faces in an image.
 
-*[Key Phrase Extraction](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
-Automatically extract key phrases to quickly identify the main points. For example, for the input text "The food was delicious and there were wonderful staff", the API returns the main talking points: "food" and "wonderful staff".
-
-*[Language Detection](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
+*[Bing Search API](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/)
 For up to 120 languages, detect which language the input text is written in and report a single language code for every document submitted on the request. The language code is paired with a score indicating the strength of the score.
 
-*[Entity Recognition (Preview)](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-entity-linking)
+*[Bing Speech API](https://azure.microsoft.com/en-us/services/cognitive-services/speech/)
 Identify and categorize entities in your text as people, places, organizations, date/time, quantities, percentages, currencies, and more. Well-known entities are also recognized and linked to more information on the web.
 REST
 
-## Deployment
+## Bot Deployment for Java
 
-## Using PowerBI to vizualize results
-
-placeholder

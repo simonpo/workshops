@@ -1,4 +1,5 @@
 # How to create a basic bot with LUIS using CLI
+The code in this folder is an example of what is created once you complete the walkthrough. It is recommended to create your own bot using the BotBuilder SDK using the steps below.
 
 ## Use the BotBuilder Generator
 
