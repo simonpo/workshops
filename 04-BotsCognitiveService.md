@@ -65,6 +65,18 @@ Test your bot locally with the emulator. The Bot Framework Emulator is a stand-a
 
 Test your bot on the web. Once configured through the Azure portal your bot can also be reached through a web chat interface. The web chat interface is a great way to grant access to your bot to testers and other people who do not have direct access to the bot's running code.
 
+### Learn more about bot concepts and the SDK
+
+[See full documentation for designing, developing, testing, deploying & more](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0)
+[Understanding how bots work](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0&tabs=cs)
+[Dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)
+[Middleware](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-middleware?view=azure-bot-service-4.0)
+[Welcoming the user](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-welcome-user?view=azure-bot-service-4.0)
+[Principles of bot design](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-principles?view=azure-bot-service-4.0)
+[Connecting a bot to channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
+[.NET SDK](https://github.com/Microsoft/botbuilder-dotnet)
+[JavaScript SDK](https://github.com/Microsoft/botbuilder-js)
+
 ## QnAMaker
 
 You can use [QnA Maker service](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&tabs=cs) to add question and answer support to your bot. One of the basic requirements in creating your own QnA Maker service is to seed it with questions and answers. In many cases, the questions and answers already exist in content like FAQs or other documentation. Other times you would like to customize your answers to questions in a more natural, conversational way.
