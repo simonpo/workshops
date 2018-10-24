@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This workshop will begin with creating a Node.js bot in the Azure portal. We will discuss the basics of a bot and how to use Azure Bot Service with LUIS (Language Understanding Intelligent System). For the first part of the workshop you only need to be logged into your Azure portal and luis.ai. 
+This workshop will begin with creating a Node.js bot in the Azure portal. We will discuss the basics of a bot and how to use Azure Bot Service with LUIS (Language Understanding Intelligent Service). For the first part of the workshop you only need to be logged into your Azure portal and luis.ai. 
 
 The second part of this workshop will show you how to deploy a java bot into the Azure portal. 
 
