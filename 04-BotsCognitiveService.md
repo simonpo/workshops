@@ -86,7 +86,7 @@ The ability to understand what your user means conversationally and contextually
 
 Azure Cognitive Services are APIs, SDKs, and services available to help developers build intelligent applications without having direct AI or data science skills or knowledge. Azure Cognitive Services expand on Microsoft’s evolving portfolio of machine learning APIs and enable developers to easily add cognitive features – such as emotion and video detection; facial, speech, and vision recognition; and speech and language understanding – into their applications. The goal of Azure Cognitive Services is to help developers create applications that can see, hear, speak, understand, and even begin to reason. The catalog of services within Azure Cognitive Services can be categorized into five main pillars - Vision, Speech, Language, Search, and Knowledge.
 
-Check out the [Cognitive Services documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/) for a full list of 5-minute quickstarts and tutorials!
+Check out the [Cognitive Services documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/) for a full list of 5-minute quickstarts and tutorials! Or download and try out the [Intelligent Kiosk demo](https://github.com/Microsoft/Cognitive-Samples-IntelligentKiosk) where you can try out different APIs in realtime. You will need the access keys for the services in order to run the sample. See sample for more details.
 
 * The [Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview) is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, language detection, and entity linking.
 
