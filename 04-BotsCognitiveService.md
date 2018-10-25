@@ -73,8 +73,8 @@ Test your bot on the web. Once configured through the Azure portal your bot can 
 * [Welcoming the user](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-welcome-user?view=azure-bot-service-4.0)
 * [Principles of bot design](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-principles?view=azure-bot-service-4.0)
 * [Connecting a bot to channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
-* [.NET SDK](https://github.com/Microsoft/botbuilder-dotnet)
-* [JavaScript SDK](https://github.com/Microsoft/botbuilder-js)
+* [BotBuilder .NET SDK](https://github.com/Microsoft/botbuilder-dotnet)
+* [BotBuilder JavaScript SDK](https://github.com/Microsoft/botbuilder-js)
 
 ## QnAMaker
 
