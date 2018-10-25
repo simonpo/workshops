@@ -10,7 +10,8 @@ The last part of the workshop will demo Cognitive Services APIs and walk through
 
 This workshop will get you ready to begin developing Bots, and includes hands-on experience with the following elements:
 
-* Bot Framework
+* Azure Bot Service 
+* Bot Framework (BotBuilder) SDK
 * QnAMaker
 * LUIS
 * Cognitive Services
