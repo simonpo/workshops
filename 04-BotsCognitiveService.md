@@ -103,5 +103,14 @@ For up to 120 languages, detect which language the input text is written in and 
 Identify and categorize entities in your text as people, places, organizations, date/time, quantities, percentages, currencies, and more. Well-known entities are also recognized and linked to more information on the web.
 REST
 
+## Visualizing Analytics in Power Bi
+[Power BI](https://powerbi.microsoft.com/) is a suite of business tools that helps you analyze data and share insights. Rich dashboards are available on every device. You can combine data from many sources, including Analytics queries from Azure Application Insights.
+
+For this example we will learn how to export analytics queries. This is the preferred method. Write any query you want and export it to Power BI. You can place this query on a dashboard, along with any other data.
+
+First, [download Power Bi Desktop](https://powerbi.microsoft.com)
+
+Then follow the steps here to create a query and import it into Power Bi desktop: https://docs.microsoft.com/en-us/azure/application-insights/app-insights-export-power-bi?toc=/azure/azure-monitor/toc.json
+
 ## Bot Deployment for Java
 Follow along with creating a Java bot locally and deploy to Azure. Documentation TBD.
