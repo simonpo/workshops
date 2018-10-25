@@ -64,15 +64,15 @@ Test your bot on the web. Once configured through the Azure portal your bot can 
 
 ### Learn more about bot concepts and the SDK
 
-[See full documentation for designing, developing, testing, deploying & more](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0)
-[Understanding how bots work](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0&tabs=cs)
-[Dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)
-[Middleware](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-middleware?view=azure-bot-service-4.0)
-[Welcoming the user](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-welcome-user?view=azure-bot-service-4.0)
-[Principles of bot design](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-principles?view=azure-bot-service-4.0)
-[Connecting a bot to channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
-[.NET SDK](https://github.com/Microsoft/botbuilder-dotnet)
-[JavaScript SDK](https://github.com/Microsoft/botbuilder-js)
+* [See full documentation for designing, developing, testing, deploying & more](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0)
+* [Understanding how bots work](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0&tabs=cs)
+* [Dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)
+* [Middleware](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-middleware?view=azure-bot-service-4.0)
+* [Welcoming the user](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-welcome-user?view=azure-bot-service-4.0)
+* [Principles of bot design](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-principles?view=azure-bot-service-4.0)
+* [Connecting a bot to channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
+* [.NET SDK](https://github.com/Microsoft/botbuilder-dotnet)
+* [JavaScript SDK](https://github.com/Microsoft/botbuilder-js)
 
 ## QnAMaker
 
@@ -88,20 +88,20 @@ Azure Cognitive Services are APIs, SDKs, and services available to help develope
 
 Check out the [Cognitive Services documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/) for a full list of 5-minute quickstarts and tutorials!
 
-The [Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview) is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, language detection, and entity linking.
+* The [Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview) is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, language detection, and entity linking.
 
-*[Face API](https://docs.microsoft.com/en-us/azure/cognitive-services/face/overview)
+* [Face API](https://docs.microsoft.com/en-us/azure/cognitive-services/face/overview)
 The Face API service is a cloud-based service that provides algorithms for analyzing human faces in images and video. The Face API has two main functions: face detection with attributes and face recognition.
 
-*[Computer Vision API](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home)
+* [Computer Vision API](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home)
 The cloud-based Computer Vision service provides developers with access to advanced algorithms for processing images and returning information. Computer Vision works with popular image formats, such as JPEG and PNG. To analyze an image, you can either upload an image or specify an image URL. Computer Vision algorithms can analyze the content of an image in different ways, depending on the visual features you're interested in. For example, Computer Vision can determine if an image contains adult or racy content, or find all the faces in an image.
 
-*[Bing Search API](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/)
+* [Bing Search API](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/)
 For up to 120 languages, detect which language the input text is written in and report a single language code for every document submitted on the request. The language code is paired with a score indicating the strength of the score.
 
-*[Bing Speech API](https://azure.microsoft.com/en-us/services/cognitive-services/speech/)
+* [Bing Speech API](https://azure.microsoft.com/en-us/services/cognitive-services/speech/)
 Identify and categorize entities in your text as people, places, organizations, date/time, quantities, percentages, currencies, and more. Well-known entities are also recognized and linked to more information on the web.
 REST
 
 ## Bot Deployment for Java
-
+Follow along with creating a Java bot locally and deploy to Azure. Documentation TBD.
