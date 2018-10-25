@@ -15,6 +15,7 @@ This workshop will get you ready to begin developing Bots, and includes hands-on
 * LUIS
 * Cognitive Services
 * Deployment
+* Analyzing in Power Bi
 
 ## Account Setup
 * [QnA Maker Account](https://www.qnamaker.ai/)
