@@ -2,11 +2,9 @@
 
 ## Introduction
 
-This workshop will begin with creating a Node.js bot in the Azure portal. We will discuss the basics of a bot and how to use Azure Bot Service with LUIS (Language Understanding Intelligent Service). We will also learn how to visualize app analytics in Power Bi. For the first part of the workshop you only need to be logged into your Azure portal and luis.ai. 
+This workshop will begin with creating a Node.js bot in the Azure portal. We will discuss the basics of a bot and how to use Azure Bot Service with LUIS (Language Understanding Intelligent Service). We will also learn how to visualize app analytics in Power Bi. For the first half of the workshop you only need to be logged into your Azure portal and luis.ai. 
 
-The second part of this workshop will show you how to deploy a java bot into the Azure portal. 
-
-The last part of the workshop will demo Cognitive Services APIs and walk through how to create a FAQ bot using QnA Maker. 
+The second half of the workshop will demo Cognitive Services APIs and walk through how to create a FAQ bot using QnA Maker. 
 
 This workshop will get you ready to begin developing Bots, and includes hands-on experience with the following elements:
 
