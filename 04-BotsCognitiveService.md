@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This workshop will begin with creating a Node.js bot in the Azure portal. We will discuss the basics of a bot and how to use Azure Bot Service with LUIS (Language Understanding Intelligent Service). We will also learn how to visualize app analytics in Power Bi. For the first half of the workshop you only need to be logged into your Azure portal and luis.ai. 
+This workshop will begin with creating a Node.js bot in the Azure portal using Azure Bot Services. We will discuss the basics of a bot and how to use Azure Bot Service with LUIS (Language Understanding Intelligent Service). We will also learn how to visualize app analytics in Power Bi. For the first half of the workshop you only need to be logged into your Azure portal and luis.ai. 
 
 The second half of the workshop will demo Cognitive Services APIs and walk through how to create a FAQ bot using QnA Maker. 
 
@@ -34,6 +34,9 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 ## Bot Framework Emulator
 
 The [Bot Framework Emulator](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0) is a desktop application that allows bot developers to test and debug their bots, either locally or remotely. Using the emulator, you can chat with your bot and inspect the messages that your bot sends and receives. The emulator displays messages as they would appear in a web chat UI and logs JSON requests and responses as you exchange messages with your bot. Before you deploy your bot to the cloud, run it locally and test it using the emulator. You can test your bot using the emulator even if you have not yet created it with Azure Bot Service or configured it to run on any channels.
+
+## What is the purpose of a bot?
+A bot is an app that users interact with in a conversational way, using text, graphics (such as cards or images), or speech. Every interaction between the user and the bot generates an activity. The Bot Service sends information between the user's bot-connected app (such as Facebook, Skype, Slack, etc. which we call the channel) and the bot. Each channel may include additional information in the activities they send.
 
 ## Azure Bot Service
 
