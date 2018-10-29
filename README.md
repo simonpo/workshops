@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Documentation and code supporting the workshops we're running in advance of the Datathon.
+Documentation and code helping you get up and running with the Azure Data Science Virtual Machine, and the Bot Framework.
 
 ## Prerequisite software
 You may need to install software on your laptop in order to perform the following tasks:
@@ -12,6 +12,5 @@ You may need to install software on your laptop in order to perform the followin
 
 ## Workshop Sessions
 
-1. Azure and Data: an Introduction
-2. [Data Science Hands On](02-DataScience.md)
-3. [Bot Framework & Cognitive Services](04-Bots.md)
+1. [Data Science Virtual Machine (DSVM)](01-DataScience.md)
+2. [Bot Framework & Cognitive Services](02-Bots.md)
