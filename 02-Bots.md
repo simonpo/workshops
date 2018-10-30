@@ -1,4 +1,4 @@
-# Workshop 4: Cognitive Services & Bot Framework
+# Workshop 2: Cognitive Services & Bot Framework
 
 ## Introduction
 
